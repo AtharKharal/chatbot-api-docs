@@ -1,8 +1,6 @@
 # ChatBot.com API Documentation
 
-This is the official developer documentation for the **ChatBot.com API**, which enables you to build, manage, and integrate intelligent chatbot systems. The API provides access to core features including stories, entities, conversations, and user management.
-
-
+This is the **un-official** developer documentation of **ChatBot.com API** by **Athar Kharal, PhD**. It enables you to build, manage, and integrate intelligent chatbot systems. The API provides access to core features including stories, entities, conversations, and user management.
 
 ---
 
