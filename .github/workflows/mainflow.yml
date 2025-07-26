@@ -1,4 +1,4 @@
-name: Build MkDocs for Vercel
+gname: Mkdocs based serving
 
 on:
   push:
