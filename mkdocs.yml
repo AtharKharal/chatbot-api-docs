@@ -17,6 +17,7 @@ theme:
     - content.action.edit
     - content.action.view
     - navigation.instant
+    - versioning
   palette:
     - scheme: default
       primary: deep orange
@@ -79,9 +80,13 @@ plugins:
 
 extra:
   generator: false
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/atharkharal
+    - icon: fontawesome/brands/linkedin
+      link: https://wwwlinkedin.com/in/AtharKharal
   copyright: © 2025 Athar Kharal, PhD. All rights reserved.
 
 extra_css:
