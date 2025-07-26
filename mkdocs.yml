@@ -81,6 +81,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/atharkharal
+  copyright: © 2025 Athar Kharal, PhD. All rights reserved.
 
 extra_css:
   - assets/styles.css
