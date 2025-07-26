@@ -1,4 +1,4 @@
-gname: Mkdocs based serving
+name: Mkdocs based serving
 
 on:
   push:
