@@ -3,24 +3,23 @@ gname: Mkdocs based serving
 on:
   push:
     branches:
-      - main  # Change if your default branch is different
-
+      - master
+      - main  
 permissions:
   contents: write
 
 jobs:
-  build:
+  deploy:
     name: Build MkDocs Static Site
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: 3.x
       - uses: actions/cache@v3
         with:
           key: ${{ github.ref }}
