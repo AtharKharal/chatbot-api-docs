@@ -14,6 +14,35 @@ https://api.chatbot.com/
 
 ---
 
+## Quick Start
+
+New here? Follow the 3-step quick start:
+
+1. **[Install and Setup](getting-started/authentication.md)**  
+   Learn how to get API keys and authenticate your requests.
+
+2. **Make Your First Call**  
+   Use the `POST /entities/query` endpoint to fetch structured data.
+
+3. **Inspect the Response**  
+   Understand the JSON structure returned and how to handle it.
+
+→ Read the [Getting Started Guide](getting-started/authentication.md) for a full walkthrough.
+
+---
+
+## Core Concepts
+
+Before diving into the full API reference, get familiar with:
+
+- **[Archives](api/archives.md):** Retrieve past conversation logs using timestamp filters.
+- **[Entities](api/entities.md):** Query or update structured elements like intents, slots, or tags.
+- **OpenAPI Spec:** The machine-readable contract for all endpoints.
+
+→ See the [API section](#api) and [Reference](#reference) for details.
+
+---
+
 ## Capabilities
 
 The API allows you to:

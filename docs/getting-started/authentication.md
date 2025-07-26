@@ -94,6 +94,28 @@ content(res)
 
 ---
 
+## Key Rotation
+
+To rotate keys:
+
+1. Generate a new key via the Dashboard.
+2. Replace it in your systems.
+3. Delete the old key.
+
+## Common Authentication Errors
+
+Refer to the [Error Codes](../reference/errors.md#authentication-errors) page for full explanations of:
+
+- `401 Unauthorized`
+- `403 Forbidden`
+
+## Related
+
+- [Entities API](../api/entities.md)
+- [Error Codes](../reference/errors.md)
+
+---
+
 ## Next Step
 
 Once authenticated, you may proceed to interact with API resources such as:

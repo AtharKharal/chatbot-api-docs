@@ -1,4 +1,4 @@
-site_name: ChatBot.com API Docs - developed by Athr Kharal, PhD
+site_name: ChatBot.com API Docs – developed by Athar Kharal, PhD
 site_description: Developer guide for ChatBot API — integration, endpoints, examples.
 site_author: Athar Kharal, PhD
 site_url: https://atharkharal.github.io/chatbot-api-docs/
@@ -11,13 +11,12 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
+    - navigation.instant
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
     - content.action.edit
     - content.action.view
-    - navigation.instant
-    - versioning
   palette:
     - scheme: default
       primary: deep orange
@@ -86,7 +85,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/atharkharal
     - icon: fontawesome/brands/linkedin
-      link: https://wwwlinkedin.com/in/AtharKharal
+      link: https://www.linkedin.com/in/AtharKharal
   copyright: © 2025 Athar Kharal, PhD. All rights reserved.
 
 extra_css:
