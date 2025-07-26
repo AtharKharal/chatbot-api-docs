@@ -1,7 +1,7 @@
 site_name: ChatBot.com API Docs
 site_description: Developer guide for ChatBot API — integration, endpoints, examples.
 site_author: Athar Kharal, PhD
-site_url: https://chatbot-api-docs.example.com
+site_url: https://atharkharal.github.io/chatbot-api-docs/
 repo_url: https://github.com/atharkharal/chatbot-api-docs
 repo_name: chatbot-api-docs
 
@@ -19,7 +19,7 @@ theme:
     - navigation.instant
   palette:
     - scheme: default
-      primary: indigo
+      primary: deep orange
       accent: cyan
       toggle:
         icon: material/weather-night
