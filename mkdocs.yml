@@ -33,7 +33,7 @@ theme:
   font:
     text: Source Sans 3
     code: JetBrains Mono
-  logo: assets/logo.svg
+  logo: assets/logo.png
   favicon: assets/favicon.ico
 
 nav:
