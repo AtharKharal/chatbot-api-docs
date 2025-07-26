@@ -2,7 +2,7 @@
 
 This is the official developer documentation for the **ChatBot.com API**, which enables you to build, manage, and integrate intelligent chatbot systems. The API provides access to core features including stories, entities, conversations, and user management.
 
-![ChatBot Overview](https://www.chatbot.com/docs/introduction/introduction.72f4743f5eedbdb5489352cdcf7234ca45617507b68f11b54d28a8125cec11f2.png)
+
 
 ---
 
