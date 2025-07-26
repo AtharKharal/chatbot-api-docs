@@ -1,0 +1,89 @@
+site_name: ChatBot.com API Docs
+site_description: Developer guide for ChatBot API — integration, endpoints, examples.
+site_author: Athar Kharal, PhD
+site_url: https://chatbot-api-docs.example.com
+repo_url: https://github.com/atharkharal/chatbot-api-docs
+repo_name: chatbot-api-docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+    - navigation.instant
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Source Sans 3
+    code: JetBrains Mono
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+
+nav:
+  - Overview: index.md
+  - Getting Started:
+      - Authentication: getting-started/authentication.md
+  - API:
+      - Archives: api/archives.md
+      - Entities: api/entities.md
+  - Reference:
+      - OpenAPI Spec: reference/openapi.md
+      - Error Codes: reference/errors.md
+  - Changelog: changelog.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.magiclink
+  - pymdownx.betterem
+  - tables
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/atharkharal
+
+extra_css:
+  - assets/styles.css
+
+extra_javascript:
+  - assets/scripts.js
